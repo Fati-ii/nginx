@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   selector:
-    app: demo-app    # ← CHANGER de 'app: nginx' à 'app: demo-app'
+    app: demo-app
   ports:
   - port: 80
     targetPort: 80
